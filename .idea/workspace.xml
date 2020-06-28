@@ -25,10 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87d932b1-b269-4b08-a79a-59fece8aa9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stockPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/xixi.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/xixi.html" afterDir="false" />
     </list>
