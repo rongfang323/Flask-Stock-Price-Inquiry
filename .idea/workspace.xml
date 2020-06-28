@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="87d932b1-b269-4b08-a79a-59fece8aa9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/xixi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/xixi.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/xixi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -32,6 +59,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -76,9 +108,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stockPlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask-framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stockPlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.stockPlot" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -106,24 +160,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1825" height="302" key="GridCell.Tab.0.bottom" timestamp="1593134329608">
+    <state width="1825" height="373" key="GridCell.Tab.0.bottom" timestamp="1593325584547">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="302" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593134329608" />
-    <state width="1825" height="302" key="GridCell.Tab.0.center" timestamp="1593134329607">
+    <state width="1825" height="373" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593325584547" />
+    <state width="1825" height="373" key="GridCell.Tab.0.center" timestamp="1593325584544">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="302" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593134329607" />
-    <state width="1825" height="302" key="GridCell.Tab.0.left" timestamp="1593134329607">
+    <state width="1825" height="373" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593325584544" />
+    <state width="1825" height="373" key="GridCell.Tab.0.left" timestamp="1593325584543">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="302" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593134329607" />
-    <state width="1825" height="302" key="GridCell.Tab.0.right" timestamp="1593134329608">
+    <state width="1825" height="373" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593325584543" />
+    <state width="1825" height="373" key="GridCell.Tab.0.right" timestamp="1593325584546">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="302" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593134329608" />
+    <state width="1825" height="373" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593325584546" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1593194913797">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
