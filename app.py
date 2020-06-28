@@ -1,5 +1,6 @@
 import request as request
-from flask import Flask, render_template, request, redirect
+import io
+from flask import Flask, render_template, request, redirect, make_response
 import requests, bokeh
 from bokeh.plotting import figure, output_file, show
 import pandas as pd
@@ -50,12 +51,18 @@ def my_form_post():
 
     # ploting the price vs. time
     titleStr = 'Monthly Stock Price of ' + variable + ' for the recent 12 months'
-    output_file('my_first_graph.html', title= variable)
+
+
     p = figure(x_axis_type="datetime", title = titleStr )
     p.line(stockSerieYear['Date'], stockSerieYear['Close'], line_width=2, color='red')
+    show(p)
+
+    output_file('my_first_graph.html', title=variable)
+    output = io.BytesIO()
+    response = make_response(output.getvalue())
+    return response
 
 
-    return show(p)
 
 
 if __name__ == '__main__':
