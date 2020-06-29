@@ -1,3 +1,23 @@
-{% extends "layout.html" %}
-{% block script %}{{ plot_script|safe }}{% endblock %}
-{% block content %}{{ plot_div|safe }}{% endblock %}
+<html lang="en">
+<div class=page>
+<head>
+    <meta charset="UTF-8">
+
+     <link href="http://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.css" rel="stylesheet" type="text/css">
+     <link href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-1.4.0.min.css" rel="stylesheet" type="text/css">
+     <script src="http://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+     <script src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-1.4.0.min.js"></script>
+
+
+</head>
+
+<body>
+
+   {{ div | safe }}
+    {{ script | safe }}
+
+
+</body>
+
+
+</div>

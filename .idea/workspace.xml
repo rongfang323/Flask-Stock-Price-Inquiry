@@ -27,6 +27,7 @@
     <list default="true" id="87d932b1-b269-4b08-a79a-59fece8aa9d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_first_graph.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_first_graph.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/plotrender.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/plotrender.html" afterDir="false" />
     </list>
@@ -56,6 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask-demo" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -161,22 +163,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1825" height="299" key="GridCell.Tab.0.bottom" timestamp="1593395410621">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593397262789">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593395410621" />
-    <state width="1825" height="299" key="GridCell.Tab.0.center" timestamp="1593395410619">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1593397262789" />
+    <state width="1825" height="299" key="GridCell.Tab.0.bottom" timestamp="1593397147988">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593395410619" />
-    <state width="1825" height="299" key="GridCell.Tab.0.left" timestamp="1593395410618">
+    <state width="1825" height="299" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147988" />
+    <state width="1825" height="299" key="GridCell.Tab.0.center" timestamp="1593397147988">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593395410618" />
-    <state width="1825" height="299" key="GridCell.Tab.0.right" timestamp="1593395410620">
+    <state width="1825" height="299" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147988" />
+    <state width="1825" height="299" key="GridCell.Tab.0.left" timestamp="1593397147987">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593395410620" />
+    <state width="1825" height="299" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147987" />
+    <state width="1825" height="299" key="GridCell.Tab.0.right" timestamp="1593397147988">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1825" height="299" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147988" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1593194913797">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

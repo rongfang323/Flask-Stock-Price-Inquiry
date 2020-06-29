@@ -54,16 +54,16 @@ def my_form_post():
     # ploting the price vs. time
     titleStr = 'Monthly Stock Price of ' + variable + ' for the recent 12 months'
 
-
+    output_file('my_first_graph.html', title=variable)
     p = figure(x_axis_type="datetime", title = titleStr )
     p.line(stockSerieYear['Date'], stockSerieYear['Close'], line_width=2, color='red')
     show(p)
 
-    #output_file('my_first_graph.html', title=variable)
+
 
     script, div = components(p)
 
-    return render_template('plotrender.html', plots = p, plot_script=script, plot_div=div)
+    return  render_template('plotrender.html', div=div, script = script)
 
 
 
