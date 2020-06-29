@@ -27,7 +27,8 @@
     <list default="true" id="87d932b1-b269-4b08-a79a-59fece8aa9d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_first_graph.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_first_graph.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_first_graph.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/plotrender.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/plotrender.html" afterDir="false" />
     </list>
@@ -57,7 +58,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -163,26 +164,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593397262789">
+    <state x="763" y="336" width="465" height="442" key="#Web_Browsers" timestamp="1593400224419">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1593397262789" />
-    <state width="1825" height="299" key="GridCell.Tab.0.bottom" timestamp="1593397147988">
+    <state x="763" y="336" width="465" height="442" key="#Web_Browsers/72.27.1848.1053@72.27.1848.1053" timestamp="1593400224419" />
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593403160343">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147988" />
-    <state width="1825" height="299" key="GridCell.Tab.0.center" timestamp="1593397147988">
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1593403160343" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593402335391">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147988" />
-    <state width="1825" height="299" key="GridCell.Tab.0.left" timestamp="1593397147987">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1593402335391" />
+    <state width="1825" height="418" key="GridCell.Tab.0.bottom" timestamp="1593403629897">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147987" />
-    <state width="1825" height="299" key="GridCell.Tab.0.right" timestamp="1593397147988">
+    <state width="1825" height="418" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593403629897" />
+    <state width="1825" height="418" key="GridCell.Tab.0.center" timestamp="1593403629896">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1825" height="299" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593397147988" />
+    <state width="1825" height="418" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593403629896" />
+    <state width="1825" height="418" key="GridCell.Tab.0.left" timestamp="1593403629895">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1825" height="418" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593403629895" />
+    <state width="1825" height="418" key="GridCell.Tab.0.right" timestamp="1593403629896">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1825" height="418" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593403629896" />
+    <state width="1825" height="536" key="GridCell.Tab.1.bottom" timestamp="1593402340533">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1825" height="536" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593402340533" />
+    <state width="1825" height="536" key="GridCell.Tab.1.center" timestamp="1593402340533">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1825" height="536" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593402340533" />
+    <state width="1825" height="536" key="GridCell.Tab.1.left" timestamp="1593402340533">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1825" height="536" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593402340533" />
+    <state width="1825" height="536" key="GridCell.Tab.1.right" timestamp="1593402340533">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1825" height="536" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593402340533" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1593194913797">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
