@@ -3,6 +3,7 @@ import io
 from flask import Flask, render_template, request, redirect, make_response
 import requests, bokeh
 from bokeh.plotting import figure, output_file, show
+from bokeh.embed import components
 import pandas as pd
 from datetime import date, timedelta
 
@@ -11,18 +12,19 @@ app = Flask(__name__)
 
 @app.route('/')
 def my_form():
-    return render_template('xixi.html')
+    return render_template('layout.html')
 
 @app.route('/', methods=['POST'])
 def my_form_post():
     variable = request.form['variable']
     symbol = variable
+
     # Define the address for request
     apikey = 'WT5BYLL3700T2HN8'
     request1 = 'https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=' + symbol + '&apikey=' + apikey
 
     response = requests.get(request1)
-    # response2 = json.dumps(response.content)
+
 
     df = pd.read_json(response.content)
     # print(df)
@@ -57,10 +59,11 @@ def my_form_post():
     p.line(stockSerieYear['Date'], stockSerieYear['Close'], line_width=2, color='red')
     show(p)
 
-    output_file('my_first_graph.html', title=variable)
-    output = io.BytesIO()
-    response = make_response(output.getvalue())
-    return response
+    #output_file('my_first_graph.html', title=variable)
+
+    script, div = components(p)
+
+    return render_template('plotrender.html',  plot_script=script, plot_div=div)
 
 
 
