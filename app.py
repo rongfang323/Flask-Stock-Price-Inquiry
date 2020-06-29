@@ -14,7 +14,7 @@ app = Flask(__name__)
 def my_form():
     return render_template('layout.html')
 
-@app.route('/', methods=['POST'])
+@app.route('/plotrender', methods=['POST'])
 def my_form_post():
     variable = request.form['variable']
     symbol = variable
@@ -63,7 +63,7 @@ def my_form_post():
 
     script, div = components(p)
 
-    return render_template('plotrender.html',  plot_script=script, plot_div=div)
+    return render_template('plotrender.html', plots = p, plot_script=script, plot_div=div)
 
 
 
